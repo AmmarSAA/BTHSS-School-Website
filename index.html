@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTHSS | Bangalore Town Higher Secondary School</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        .navbar-nav .nav-link {
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #f1c40f !important;
+            /* gold */
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow"
+        style="background: linear-gradient(90deg, #2C3E50, #34495E);">
+        <div class="container">
+            <!-- Logo + School Name -->
+            <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+                <img src="images/logo.jpg" alt="BTHSS Logo" width="100" height="100"
+                    class="me-2 rounded-circle border border-3 border-warning bg-white p-1 shadow">
+                <span class="text-warning">BTHSS</span>
+            </a>
+
+            <!-- Toggler (mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="academics.html">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="admissions.html">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="faculty.html">Faculty</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <header class="vh-100 d-flex align-items-center text-center text-white"
+        style="background: url('images/img7.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Bangalore Town Higher Secondary School</h1>
+            <p class="lead mb-0">Nurturing Minds • Building Futures • Inspiring Excellence</p>
+        </div>
+    </header>
+
+    <!-- About Highlights -->
+    <section class="py-5 bg-light text-dark">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <i class="bi bi-mortarboard-fill text-warning fs-1"></i>
+                            <h3 class="card-title text-primary mt-3">Experienced Faculty</h3>
+                            <p class="card-text">Our dedicated teachers guide students with passion and expertise to
+                                ensure academic success and personal growth.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <i class="bi bi-building text-warning fs-1"></i>
+                            <h3 class="card-title text-primary mt-3">Modern Facilities</h3>
+                            <p class="card-text">Smart classrooms, science labs, a library, and sports grounds support
+                                holistic education for every student.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <i class="bi bi-award-fill text-warning fs-1"></i>
+                            <h3 class="card-title text-primary mt-3">Proven Results</h3>
+                            <p class="card-text">Our students consistently achieve outstanding results in board
+                                examinations and competitive fields.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-5 bg-white text-dark">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4">School Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/img1.jpg" class="card-img-top" alt="School Event">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/img3.jpg" class="card-img-top" alt="Science Lab">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm">
+                        <img src="images/img5.jpg" class="card-img-top" alt="Sports Day">
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="gallery.html" class="btn btn-warning text-dark fw-bold">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white pt-5 pb-3" style="background-color: #2C3E50;">
+        <div class="container">
+            <div class="row">
+                <!-- About School -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">BTHSS</h5>
+                    <p>Bangalore Town Higher Secondary School is committed to excellence in education, nurturing
+                        students to achieve their full potential.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> About Us</a></li>
+                        <li><a href="academics.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Academics</a></li>
+                        <li><a href="admissions.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Admissions</a></li>
+                        <li><a href="gallery.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Gallery</a></li>
+                        <li><a href="faculty.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i>
+                                Faculty</a></li>
+                        <li><a href="contact.html" class="text-white text-decoration-none"><i
+                                    class="bi bi-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold">Contact Us</h5>
+                    <p class="mb-1"><i class="bi bi-geo-alt-fill"></i>Plot # 26 A, Block 6/7, Bangalore Town,Tipu Sultan
+                        Road, Karachi-75350</p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill"></i> 021-34373303
+                        0334 3065221
+                        021-34521108</p>
+                    <p class="mb-1"><i class="bi bi-envelope-fill"></i> admin@bthss.edu.pk</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2025 BTHSS | Designed with ❤️ by Aneeq Azam</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

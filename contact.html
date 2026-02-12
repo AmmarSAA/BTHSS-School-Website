@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | BTHSS</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <style>
+    .navbar-nav .nav-link {
+      transition: color 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #f1c40f !important;
+    }
+  </style>
+</head>
+
+<body class="bg-light text-dark">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow"
+    style="background: linear-gradient(90deg, #2C3E50, #34495E);">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
+        <img src="images/logo.jpg" alt="BTHSS Logo" width="70" height="70"
+          class="me-2 rounded-circle border border-3 border-warning bg-white p-1 shadow">
+        <span class="text-warning">BTHSS</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-uppercase fw-semibold">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="academics.html">Academics</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="admissions.html">Admissions</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="faculty.html">Faculty</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="vh-50 d-flex align-items-center text-center text-white"
+    style="background: url('images/img7.jpg') no-repeat center center/cover; margin-top: 56px;">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">Contact Us</h1>
+      <p class="lead">We’d love to hear from you</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Contact Info -->
+        <div class="col-md-5">
+          <h2 class="fw-bold text-warning mb-4">Get in Touch</h2>
+          <p><i class="bi bi-geo-alt-fill text-warning"></i> Plot # 26 A, Block 6/7, Bangalore Town,Tipu Sultan
+            Road, Karachi-75350</p>
+          <p><i class="bi bi-telephone-fill text-warning"></i> 021-34373303
+            0334 3065221
+            021-34521108</p>
+          <p><i class="bi bi-envelope-fill text-warning"></i> admin@bthss.edu.pk</p>
+          <p><i class="bi bi-clock-fill text-warning"></i> Mon - Sat: 9:00 AM - 1:00 PM</p>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-7">
+          <h2 class="fw-bold text-warning mb-4">Send Us a Message</h2>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Message</label>
+              <textarea class="form-control" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning fw-bold shadow">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map -->
+  <section class="pb-5">
+    <div class="container">
+      <h2 class="fw-bold text-warning text-center mb-4">Find Us on Map</h2>
+      <div class="ratio ratio-16x9 shadow rounded">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28972.758892274515!2d67.068!3d24.8702717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eb0234ce761%3A0xf4f3ede61fc636dd!2sBangalore%20Town%20Higher%20Secondary%20School!5e0!3m2!1sen!2s!4v1726950000000!5m2!1sen!2s"
+          style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="text-white pt-5 pb-3" style="background-color: #2C3E50;">
+    <div class="container">
+      <div class="row">
+        <!-- About School -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">BTHSS</h5>
+          <p>Bangalore Town Higher Secondary School is committed to excellence in education, nurturing
+            students to achieve their full potential.</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i> About
+                Us</a></li>
+            <li><a href="academics.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i>
+                Academics</a></li>
+            <li><a href="admissions.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i>
+                Admissions</a></li>
+            <li><a href="gallery.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i>
+                Gallery</a></li>
+            <li><a href="faculty.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i>
+                Faculty</a></li>
+            <li><a href="contact.html" class="text-white text-decoration-none"><i class="bi bi-chevron-right"></i>
+                Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold">Contact Us</h5>
+          <p class="mb-1"><i class="bi bi-geo-alt-fill"></i>Plot # 26 A, Block 6/7, Bangalore Town,Tipu Sultan
+            Road, Karachi-75350</p>
+          <p class="mb-1"><i class="bi bi-telephone-fill"></i> 021-34373303
+            0334 3065221
+            021-34521108</p>
+          <p class="mb-1"><i class="bi bi-envelope-fill"></i> admin@bthss.edu.pk</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2025 BTHSS | Designed with ❤️ by Aneeq Azam</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
